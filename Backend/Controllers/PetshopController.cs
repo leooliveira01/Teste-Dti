@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace SistemasPetShop.Controllers
@@ -8,6 +9,7 @@ namespace SistemasPetShop.Controllers
     public class PetshopController : ControllerBase
     {
         [HttpPost]
+        
         public ActionResult CalcularMelhorPetshop([FromBody] DadosDoPedido dados)
         {
             if (dados == null)

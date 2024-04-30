@@ -13,7 +13,8 @@ namespace SistemasPetShop
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-           
+        
+
 
             var app = builder.Build();
 
@@ -24,11 +25,20 @@ namespace SistemasPetShop
                 app.UseSwaggerUI();
             }
 
+
+
             app.UseHttpsRedirection();
 
+            app.UseRouting();
+
+            app.UseCors(options =>
+            {
+                options.AllowAnyOrigin();
+                options.AllowAnyHeader();
+                options.AllowAnyMethod();
+            });
             app.UseAuthorization();
-
-
+          
             app.MapControllers();
 
             app.Run();
