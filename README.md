@@ -30,9 +30,20 @@
    - Segura.
 - As principais classe que usei no Backend:
 - Classe Model
-   - A classe model chamada no meu projeto de PetShopModel foi utilizada para declarar as variaveis usada na classe Controller. Ela também pode ser usada para propriedades e regras de validação 
+   - A classe model chamada no meu projeto de PetShopModel foi utilizada para declarar as variaveis usada na classe Controller como a Data, qtdgrande e qtdpequenos. Ela também pode ser usada para propriedades e regras de validação 
  - Classe Controller
    - A classe controller chamada de PetShopController no meu projeto foi fundamental para o desenvolvimento do backend nela contém o roteamento e processamento de solicitações HTTP, e nela também foi feita a 
     lógica dos métodos usados para calcular o preço a quantidade de cachorros grandes e pequenos e a data.
+- Classe Program
+  - E por fim a classe Program é fundamental para a configuração do ambiente de hospedagem, o pipeline de requisição, os serviços e a inicialização da aplicação. É onde a configuração inicial da aplicação é concluída, preparando a API para receber e processar requisições HTTP.
+
+### Teste do Sistemas ✅
+- Segue abaixo um print do sistema funcionando.
+![image](https://github.com/leooliveira01/Teste-Dti/assets/102445641/c6b6de44-0d6b-443e-9632-c5b97ff6222f)
+
+### Observação 
+- Gostaria de compartilhar que durante o desenvolvimento da minha API Encontrei um problema técnico relacionado ao erro de CORS. O erro de CORS se manifestou quando tentei que uma aplicação front-end  acessasse minha API backend Por causa desse erro, o navegador da aplicação front-end, por questões de segurança, bloqueou a solicitação. Para resolver esse problema eu implementei um método na classe Program do backend  minha API pode ser acessada de várias fontes.
+- 
+
    
 
