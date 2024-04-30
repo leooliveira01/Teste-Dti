@@ -10,7 +10,7 @@
    - E por fim Pressione enter para criar seu clone local.
 - Após clonar o reposítorio deve rodar o comando com a versão latest do node.
 - Rodar o camando npm install e depois rodar o comando npm run dev .
-- Para funcionar corretamente o backend precisa ser executado antes, com isso assim que ele for executado, crie um arquivo .env na raiz do projeto do projeto e coloque o endereço da API na variável VITE_API_URL.
+- Para funcionar corretamente o backend precisa ser executado antes, com isso assim que ele for executado, crie um arquivo .env na raiz do projeto e coloque o endereço da API na variável VITE_API_URL.
 
 ### Decisões de Projeto Frontend
 - Utilizei o Vite que é uma  ferramenta de construção moderna para projetos React, escolhida por sua facilidade de uso e por ser uma das maneiras mais atualizadas de criar um projeto React. Motivo que considerei para usar essa ferramenta:
@@ -43,7 +43,7 @@
 
 ### Observação 
 - Gostaria de compartilhar que durante o desenvolvimento da minha API Encontrei um problema técnico relacionado ao erro de CORS. O erro de CORS se manifestou quando tentei que uma aplicação front-end  acessasse minha API backend Por causa desse erro, o navegador da aplicação front-end, por questões de segurança, bloqueou a solicitação. Para resolver esse problema eu implementei um método na classe Program do backend  minha API pode ser acessada de várias fontes.
-- 
+
 
    
 
