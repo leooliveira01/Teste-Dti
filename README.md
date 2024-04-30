@@ -8,9 +8,9 @@
    - Altere o diretório de trabalho atual para o local em que deseja ter o diretório clonado.
    - Digite git clone e cole a URL já copiada.
    - E por fim Pressione enter para criar seu clone local.
-- Após clonar o reposítorio deve rodar o comando com a versão latest.
-- Rodar o camando npm install e depois rodar o comando npm run dev .
-- Para funcionar corretamente o backend precisa ser executado antes, com isso assim que ele for executado, crie um arquivo .env na raiz do projeto e coloque o endereço da API na variável VITE_API_URL.
+- Após clonar o reposítorio deve Rodar o comando com a versão latest do node
+`npm install` e depois rodar o comando `npm run dev`
+-  Com isso assim que ele for executado, crie um arquivo `.env` na raiz do projeto e coloque o endereço da API na variável `VITE_API_URL`.
 
 ### Decisões de Projeto Frontend
 - Utilizei o Vite que é uma  ferramenta de construção moderna para projetos React, escolhida por sua facilidade de uso e por ser uma das maneiras mais atualizadas de criar um projeto React. Motivo que considerei para usar essa ferramenta:
