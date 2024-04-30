@@ -37,7 +37,7 @@
 - Classe Program
   - E por fim a classe Program é fundamental para a configuração do ambiente de hospedagem, o pipeline de requisição, os serviços e a inicialização da aplicação. É onde a configuração inicial da aplicação é concluída, preparando a API para receber e processar requisições HTTP.
 
-### Teste do Sistemas ✅
+### Teste do Sistema ✅
 - Segue abaixo um print do sistema funcionando.
 ![image](https://github.com/leooliveira01/Teste-Dti/assets/102445641/c6b6de44-0d6b-443e-9632-c5b97ff6222f)
 
