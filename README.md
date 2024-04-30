@@ -8,7 +8,7 @@
    - Altere o diretório de trabalho atual para o local em que deseja ter o diretório clonado.
    - Digite git clone e cole a URL já copiada.
    - E por fim Pressione enter para criar seu clone local.
-- Após clonar o reposítorio deve Rodar o comando com a versão latest do node
+- Após clonar o reposítorio deve Rodar o comando com a versão latest 
 `npm install` e depois rodar o comando `npm run dev`
 -  Com isso assim que ele for executado, crie um arquivo `.env` na raiz do projeto e coloque o endereço da API na variável `VITE_API_URL`.
 
@@ -42,7 +42,7 @@
 ![image](https://github.com/leooliveira01/Teste-Dti/assets/102445641/c6b6de44-0d6b-443e-9632-c5b97ff6222f)
 
 ### Observação 
-- Gostaria de compartilhar que durante o desenvolvimento da minha API Encontrei um problema técnico relacionado ao erro de CORS. O erro de CORS se manifestou quando tentei que uma aplicação front-end  acessasse minha API backend Por causa desse erro, o navegador da aplicação front-end, por questões de segurança, bloqueou a solicitação. Para resolver esse problema eu implementei um método na classe Program do backend  minha API pode ser acessada de várias fontes.
+- Gostaria de compartilhar que durante o desenvolvimento da minha API encontrei um problema técnico relacionado ao erro de CORS. O erro de CORS se manifestou quando tentei que uma aplicação front-end  acessasse minha API backend por causa desse erro, o navegador da aplicação front-end, por questões de segurança, bloqueou a solicitação. Para resolver esse problema eu implementei um método na classe Program do backend  minha API pode ser acessada de várias fontes.
 
 
    
